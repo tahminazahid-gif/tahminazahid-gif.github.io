@@ -15,6 +15,7 @@
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#intro">Intro Video</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -58,12 +59,7 @@
   </div>
 </section>
 
-<!--
-============ INTRODUCTION VIDEO ============
-Add this section after the video file is ready:
-1. Put the video at tahmina-portfolio/assets/videos/introduction.mp4 and a thumbnail at tahmina-portfolio/assets/images/intro-poster.jpg
-2. Remove the comment markers around the block below.
-
+<!-- ============ INTRODUCTION VIDEO ============ -->
 <section id="intro" class="alt">
   <div class="wrap">
     <h2>My Introduction Video</h2>
@@ -74,28 +70,19 @@ Add this section after the video file is ready:
         <p>My academic background, skills, interests and career aspirations, in my own words.</p>
       </div>
       <div class="phone">
-        <video controls preload="metadata" poster="tahmina-portfolio/assets/images/intro-poster.jpg" playsinline aria-label="Introduction video by Tahmina Zahid">
-          <source src="tahmina-portfolio/assets/videos/introduction.mp4" type="video/mp4">
+        <video controls preload="metadata" playsinline aria-label="Introduction video by Tahmina Zahid">
+          <source src="tahmina-portfolio/assets/intro.mp4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
         </video>
       </div>
     </div>
   </div>
 </section>
--->
-<section id="intro-video">
-  <h2>Introduction Video</h2>
-  <p>A short introduction about me</p>
-  <div class="video-wrap">
-    <video controls preload="metadata" playsinline>
-      <source src="/tahmina-portfolio/assets/intro.mp4.mp4" type="video/mp4">
-    </video>
-  </div>
-</section>
 <style>
-  #intro-video { text-align: center; padding: 60px 20px; }
-  #intro-video .video-wrap { max-width: 360px; margin: 0 auto; }
-  #intro-video video { width: 100%; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,.2); }
+  #intro .phone { max-width: 300px; margin: 24px auto 0; }
+  #intro .phone video { width: 100%; border-radius: 16px; display: block; }
 </style>
+
 <!-- ============ EDUCATION ============ -->
 <section id="education" class="alt">
   <div class="wrap narrow">
