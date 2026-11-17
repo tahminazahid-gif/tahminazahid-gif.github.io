@@ -82,7 +82,20 @@ Add this section after the video file is ready:
   </div>
 </section>
 -->
-
+<section id="intro-video">
+  <h2>Introduction Video</h2>
+  <p>A short introduction about me</p>
+  <div class="video-wrap">
+    <video controls preload="metadata" playsinline>
+      <source src="/tahmina-portfolio/assets/intro.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+<style>
+  #intro-video { text-align: center; padding: 60px 20px; }
+  #intro-video .video-wrap { max-width: 360px; margin: 0 auto; }
+  #intro-video video { width: 100%; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,.2); }
+</style>
 <!-- ============ EDUCATION ============ -->
 <section id="education" class="alt">
   <div class="wrap narrow">
