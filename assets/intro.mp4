@@ -87,7 +87,7 @@ Add this section after the video file is ready:
   <p>A short introduction about me</p>
   <div class="video-wrap">
     <video controls preload="metadata" playsinline>
-      <source src="/tahmina-portfolio/assets/intro.mp4" type="video/mp4">
+      <source src="/tahmina-portfolio/assets/intro.mp4.mp4" type="video/mp4">
     </video>
   </div>
 </section>
